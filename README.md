@@ -1,4 +1,5 @@
 # r-binder
 
+R [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iamsaswata/r-binder/main)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iamsaswata/r-binder/HEAD?urlpath=rstudio)
+Rstudio [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iamsaswata/r-binder/main?urlpath=rstudio)
