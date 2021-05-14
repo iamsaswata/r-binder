@@ -1,7 +1,7 @@
-FROM rocker/geospatial:4.0.2
+FROM rocker/geospatial:4.0.0
 
-# Extra R packages
-# RUN install2.r
+WORKDIR /app
 
-# Rstudio interface preferences
-COPY rstudio-prefs.json /home/rstudio/.config/rstudio/rstudio-prefs.json
+ADD ./docker/ /app
+
+CMD ["/bin/bash"]
